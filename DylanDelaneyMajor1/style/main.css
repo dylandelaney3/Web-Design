@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(129, 55, 248);
+}
+
+/* created a box for the the main information describing the history of podcasts */
+div{
+    background-color: antiquewhite;
+    border-style: solid;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    max-width: 1050px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main title box */
+h1{
+    font-size: 45px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    padding-right: 10px;
+    margin-top: 100px;
+    width: 375px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* created a class instead of using elements to get myself familiar, used this main document */
+
+.font40{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 30px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* overarching settings for all content in lists */
+li{
+    font-size: 25px;
+    margin-left: 10px;
+    list-style-type: decimal;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* overarching settings for all images to make them uniform in size */
+img{   
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 350px;
+    height: 350px;
+}
+
+a{
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* second list, used to put it into position */
+.sr{
+    position: relative;
+    left: 400px;
+    bottom: 270px;
+}
+
+/* third list, used to put it into position */
+.sr2{
+    position: relative;
+    left: 811px;
+    bottom: 603px;
+}
+
+/* overarching settings for how lists were dsiplayed and surrounded */
+ul {
+    border: 3px solid black;
+    padding-right: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 255px;
+    border-radius: 5px;
+    background-color:  antiquewhite;
+  }
+
+/* settings for nav bar at top, made it fixed on the page */
+  .ul2{
+    border: 3px solid black;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 575px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-size: 35px;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+  }
